@@ -1,0 +1,4 @@
+A- El color del Testing es Azul.
+B- El color de la página en Desarrollo es Amarillo.
+C- La página máster, al hacer el merge de Desarrollo no dejó hacer otro merge con Testing, resultando en que quede con el color Amarillo.
+D- El favicon del master es el de beta.
