@@ -2,3 +2,9 @@ A- El color del Testing es Azul.
 B- El color de la página en Desarrollo es Amarillo.
 C- La página máster, al hacer el merge de Desarrollo no dejó hacer otro merge con Testing, resultando en que quede con el color Amarillo.
 D- El favicon del master es el de beta.
+
+E- Beta tuvo problemas al hacer el push debido a que tenía que actualizar el repositorio pero sus cambios serían afectados.
+F- Como menciamos anteriormente, encontramos problemas a la hora de poder pushear al unísono los cambios.
+G- La mejor manera que encontramos fue el forzar el push de beta (con push -f), dando como consecuencia que el push de alfa sea eliminado.
+H- Si cada uno utiliza el push -f se irían elimiando los cambios previos por los nuevos. Y los commits anteriores se perderían.
+I- Para conseguir esto debemos poder pushear los cambios y actualizarlos haciendolo con git pull, una vez que juntamos los 3 <p>, hacemos el merge de testing en desarrollo. 
